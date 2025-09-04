@@ -40,5 +40,5 @@ def get_students_with_param_mix(course: int, major: str, enrollment_year: int):
     return response.json()
 
 
-students = get_students_with_param_mix(2, major=None, enrollment_year=2018)
-print(students)
+# students = get_students_with_param_mix(2, major=None, enrollment_year=2018)
+# print(students)
